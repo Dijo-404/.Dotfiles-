@@ -87,8 +87,8 @@ EOF
 done
 
 # Only export that are used outside this script
-404_LOG="$(date +'%y%m%d_%Hh%Mm%Ss')"
-export flg_DryRun flg_Nvidia flg_Shell flg_Install flg_ThemeInstall 404_LOG
+HYDE_LOG="$(date +'%y%m%d_%Hh%Mm%Ss')"
+export flg_DryRun flg_Nvidia flg_Shell flg_Install flg_ThemeInstall HYDE_LOG
 
 if [ "${flg_DryRun}" -eq 1 ]; then
     print_log -n "[test-run] " -b "enabled :: " "Testing without executing"
@@ -134,7 +134,7 @@ EOF
     shift $((OPTIND - 1))
     custom_pkg=$1
     cp "${scrDir}/pkg_core.lst" "${scrDir}/install_pkg.lst"
-    trap 'mv "${scrDir}/install_pkg.lst" "${cacheDir}/logs/${404_LOG}/install_pkg.lst"' EXIT
+    trap 'mv "${scrDir}/install_pkg.lst" "${cacheDir}/logs/${HYDE_LOG}/install_pkg.lst"' EXIT
 
     echo -e "\n#user packages" >>"${scrDir}/install_pkg.lst" # Add a marker for user packages
     if [ -f "${custom_pkg}" ] && [ -n "${custom_pkg}" ]; then
@@ -185,7 +185,7 @@ EOF
             ;;
         esac
         if [[ -z "$getAur" ]]; then
-            print_log -sec "AUR" -crit "No AUR helper found..." "Log file at ${cacheDir}/logs/${404_LOG}"
+            print_log -sec "AUR" -crit "No AUR helper found..." "Log file at ${cacheDir}/logs/${HYDE_LOG}"
             exit 1
         fi
     fi
@@ -212,7 +212,7 @@ EOF
         echo "${myShell}" >>"${scrDir}/install_pkg.lst"
 
         if [[ -z "$myShell" ]]; then
-            print_log -sec "shell" -crit "No shell found..." "Log file at ${cacheDir}/logs/${404_LOG}"
+            print_log -sec "shell" -crit "No shell found..." "Log file at ${cacheDir}/logs/${HYDE_LOG}"
             exit 1
         else
             print_log -sec "shell" -stat "detected :: " "${myShell}"
@@ -220,7 +220,7 @@ EOF
     fi
 
     if ! grep -q "^#user packages" "${scrDir}/install_pkg.lst"; then
-        print_log -sec "pkg" -crit "No user packages found..." "Log file at ${cacheDir}/logs/${404_LOG}/install.sh"
+        print_log -sec "pkg" -crit "No user packages found..." "Log file at ${cacheDir}/logs/${HYDE_LOG}/install.sh"
         exit 1
     fi
 
@@ -327,7 +327,7 @@ if [ $flg_Install -eq 1 ]; then
     echo ""
     print_log -g "Installation" " :: " "COMPLETED!"
 fi
-print_log -b "Log" " :: " -y "View logs at ${cacheDir}/logs/${404_LOG}"
+print_log -b "Log" " :: " -y "View logs at ${cacheDir}/logs/${HYDE_LOG}"
 if ([ $flg_Install -eq 1 ] ||
     [ $flg_Restore -eq 1 ] ||
     [ $flg_Service -eq 1 ]) &&

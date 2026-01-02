@@ -104,7 +104,7 @@ prompt_timer() {
 }
 print_log() {
     local executable="${0##*/}"
-    local logFile="${cacheDir}/logs/${404_LOG}/${executable}.log"
+    local logFile="${cacheDir}/logs/${HYDE_LOG}/${executable}.log"
     mkdir -p "$(dirname "${logFile}")"
     local section=${log_section:-}
     {
@@ -174,7 +174,7 @@ print_log() {
             esac
         done
         echo ""
-    } | if [ -n "${404_LOG}" ]; then
+    } | if [ -n "${HYDE_LOG}" ]; then
         tee >(sed 's/\x1b\[[0-9;]*m//g' >>"${logFile}")
     else
         cat
