@@ -199,7 +199,6 @@ EOF
 
         case "${PROMPT_INPUT}" in
         1) export myShell="zsh" ;;
-        2) export myShell="fish" ;;
         q)
             print_log -sec "shell" -crit "Quit" "Exiting..."
             exit 1

@@ -67,7 +67,6 @@ O|${HOME}/.local/share|wallbash|bash imagemagick
 
 
  Editor 
-P|${HOME}/.config/Code - OSS/User|settings.json|code
 P|${HOME}/.config/Code/User|settings.json|visual-studio-code-bin
 P|${HOME}/.config/VSCodium/User|settings.json|vscodium
 
@@ -85,8 +84,6 @@ S|${HOME}/.config/kitty|404.conf theme.conf|kitty
 P|${HOME}/.config/kitty|kitty.conf|kitty
 
  Shell 
-S|${HOME}/.config/fish|conf.d functions completions|fish
-P|${HOME}/.config/fish|config.fish|fish
 P|${HOME}/.config/starship|starship.toml|starship
 
 
@@ -125,7 +122,6 @@ P|${HOME}/.config|libinput-gestures.conf|libinput-gestures
 
  Wayland 
 P|${HOME}/.config|spotify-flags.conf|spotify
-P|${HOME}/.config|code-flags.conf|code
 P|${HOME}/.config|code-flags.conf|visual-studio-code-bin
 P|${HOME}/.config|codium-flags.conf|vscodium
 P|${HOME}/.config|electron-flags.conf|electron

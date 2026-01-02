@@ -12,7 +12,7 @@ cloneDir="${CLONE_DIR:-${cloneDir}}"
 confDir="${XDG_CONFIG_HOME:-$HOME/.config}"
 cacheDir="${XDG_CACHE_HOME:-$HOME/.cache}/404"
 aurList=("yay" "paru")
-shlList=("zsh" "fish")
+shlList=("zsh")
 pacmanCmd=${cloneDir}/Configs/.local/lib/404/pm.sh
 
 export cloneDir
