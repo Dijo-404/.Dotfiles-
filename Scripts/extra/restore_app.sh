@@ -5,8 +5,8 @@
 #|/ /---+-----------------------------+/ /---|#
 
 scrDir=$(dirname "$(dirname "$(realpath "$0")")")
-source "${scrDir}/global_fn.sh"
-if [ $? -ne 0 ]; then
+# shellcheck disable=SC1091
+if ! source "${scrDir}/global_fn.sh"; then
     echo "Error: unable to source global_fn.sh..."
     exit 1
 fi

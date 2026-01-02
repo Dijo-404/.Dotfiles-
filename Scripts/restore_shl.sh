@@ -75,7 +75,7 @@ if pkg_installed zsh; then
 
         # update plugin array in zshrc
         print_log -sec "SHELL" -stat "installing" "plugins (${w_plugin} )"
-        sed -i "/^404_plugins=/c\404_plugins=(${w_plugin} )${Fix_Completion}" "${Zsh_rc}"
+        sed -i "/^_404_plugins=/c\\_404_plugins=(${w_plugin} )${Fix_Completion}" "${Zsh_rc}"
     else
         if [ "${flg_DryRun}" -eq "1" ]; then
             while read -r r_plugin; do

@@ -194,24 +194,24 @@ deploy_psv() {
 
 hyprland_hook() {
 
-    local 404_config="${cloneDir}/Configs/.config/hypr/hyprland.conf"
+    local _404_config="${cloneDir}/Configs/.config/hypr/hyprland.conf"
     local hyprland_default_config="${XDG_CONFIG_HOME:-$HOME/.config}/hypr/hyprland.conf"
     local hyq_exec="${cloneDir}/Configs/.local/lib/404/hyq"
     if [[ ! -x "${hyq_exec}" ]]; then
         print_log -r "[error] :: " "Required executable '${hyq_exec}' not found or not executable. Please ensure it exists and has execute permissions."
         return 1
     fi
-    if ! "${hyq_exec}" "${hyprland_default_config}" --query "\$404_HYPRLAND"; then
+    if ! "${hyq_exec}" "${hyprland_default_config}" --query "\$_404_HYPRLAND"; then
         mkdir -p "$(dirname "${hyprland_default_config}")" "${BkpDir}/.config/hypr"
-        print_log -g "[hook] " -b "hyprland :: " "No 404_HYPRLAND variable found in ${hyprland_default_config}, restoring default 404 marker..."
+        print_log -g "[hook] " -b "hyprland :: " "No _404_HYPRLAND variable found in ${hyprland_default_config}, restoring default 404 marker..."
 
         if [[ ${flg_DryRun} -ne 1 && -f "${hyprland_default_config}" ]]; then
             cp -f "${hyprland_default_config}" "${BkpDir}/.config/hypr/hyprland.conf"
         fi
 
         print_log -r "[backup] :: " "${hyprland_default_config} to ${BkpDir}/.config/hypr/hyprland.conf"
-        [[ ${flg_DryRun} -ne 1 ]] && cp -f "${404_config}" "${hyprland_default_config}"
-        print_log -g "[restore] :: " "${404_config} to ${hyprland_default_config}"
+        [[ ${flg_DryRun} -ne 1 ]] && cp -f "${_404_config}" "${hyprland_default_config}"
+        print_log -g "[restore] :: " "${_404_config} to ${hyprland_default_config}"
     fi
 }
 

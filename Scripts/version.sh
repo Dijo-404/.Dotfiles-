@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
-404_CLONE_PATH=$(git rev-parse --show-toplevel)
-404_BRANCH=$(git rev-parse --abbrev-ref HEAD)
-404_REMOTE=$(git config --get remote.origin.url)
-404_VERSION=$(git describe --tags --always)
-404_COMMIT_HASH=$(git rev-parse HEAD)
-404_VERSION_COMMIT_MSG=$(git log -1 --pretty=%B)
-404_VERSION_LAST_CHECKED=$(date +%Y-%m-%d\ %H:%M%S\ %z)
+_404_CLONE_PATH=$(git rev-parse --show-toplevel)
+_404_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+_404_REMOTE=$(git config --get remote.origin.url)
+_404_VERSION=$(git describe --tags --always)
+_404_COMMIT_HASH=$(git rev-parse HEAD)
+_404_VERSION_COMMIT_MSG=$(git log -1 --pretty=%B)
+_404_VERSION_LAST_CHECKED=$(date +%Y-%m-%d\ %H:%M%S\ %z)
 
 generate_release_notes() {
   local latest_tag
@@ -31,12 +31,12 @@ generate_release_notes() {
   echo "$commits"
 }
 
-# 404_RELEASE_NOTES=$(generate_release_notes)
+# _404_RELEASE_NOTES=$(generate_release_notes)
 
-echo "404 $404_VERSION built from branch $404_BRANCH at commit ${404_COMMIT_HASH:0:12} ($404_VERSION_COMMIT_MSG)"
-echo "Date: $404_VERSION_LAST_CHECKED"
-echo "Repository: $404_CLONE_PATH"
-echo "Remote: $404_REMOTE"
+echo "404 $_404_VERSION built from branch $_404_BRANCH at commit ${_404_COMMIT_HASH:0:12} ($_404_VERSION_COMMIT_MSG)"
+echo "Date: $_404_VERSION_LAST_CHECKED"
+echo "Repository: $_404_CLONE_PATH"
+echo "Remote: $_404_REMOTE"
 echo ""
 
 if [[ "$1" == "--cache" ]]; then
@@ -45,19 +45,19 @@ if [[ "$1" == "--cache" ]]; then
   version_file="$state_dir/version"
 
   cat >"$version_file" <<EOL
-404_CLONE_PATH='$404_CLONE_PATH'
-404_BRANCH='$404_BRANCH'
-404_REMOTE='$404_REMOTE'
-404_VERSION='$404_VERSION'
-404_VERSION_LAST_CHECKED='$404_VERSION_LAST_CHECKED'
-404_VERSION_COMMIT_MSG='$404_VERSION_COMMIT_MSG'
-404_COMMIT_HASH='$404_COMMIT_HASH'
+_404_CLONE_PATH='$_404_CLONE_PATH'
+_404_BRANCH='$_404_BRANCH'
+_404_REMOTE='$_404_REMOTE'
+_404_VERSION='$_404_VERSION'
+_404_VERSION_LAST_CHECKED='$_404_VERSION_LAST_CHECKED'
+_404_VERSION_COMMIT_MSG='$_404_VERSION_COMMIT_MSG'
+_404_COMMIT_HASH='$_404_COMMIT_HASH'
 EOL
-# 404_RELEASE_NOTES='$404_RELEASE_NOTES'
+# _404_RELEASE_NOTES='$_404_RELEASE_NOTES'
 
   echo -e "Version cache output to $version_file\n"
 
 elif [[ "$1" == "--release-notes" ]]; then
-  echo "$404_RELEASE_NOTES"
+  echo "$_404_RELEASE_NOTES"
 
 fi
