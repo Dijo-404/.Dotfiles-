@@ -140,6 +140,12 @@
 | `XF86MonBrightnessUp` | increase brightness |
 | `XF86MonBrightnessDown` | decrease brightness |
 
+### Power Profile
+
+| Keys | Action |
+| :--- | :----- |
+| `Super + R` | cycle power profile (performance/balanced/power-saver) |
+
 ---
 
 ## Utilities
