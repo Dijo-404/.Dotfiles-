@@ -1,327 +1,229 @@
-<div align = center>
-    <a href="https://discord.gg/AYbJ9MJez7">
-<img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FmT5YqjaJFh%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&style=for-the-badge&logo=discord&logoSize=auto&label=The%20404%20Project&labelColor=ebbcba&color=c79bf0">
-    </a>
-</div>
+# Keybindings
 
-###### _<div align="right"><a id=-design-by-t2></a><sub>// design by t2</sub></div>_
+> **Tip:** Press `Super + /` to show keybindings on screen.
 
-![404_banner](Source/assets/404_banner.png)
+---
 
-<!--
-Multi-language KEYBINDINGS support
--->
+## Table of Contents
 
-<!-- [![en](https://img.shields.io/badge/lang-en-red.svg)](KEYBINDINGS.md) -->
+- [Window Management](#window-management)
+- [Misc](#misc)
+- [Launcher](#launcher)
+- [Hardware Controls](#hardware-controls)
+- [Utilities](#utilities)
+- [Theming and Wallpaper](#theming-and-wallpaper)
+- [Workspaces](#workspaces)
+- [Custom Keybindings](#custom-keybindings)
 
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](Source/assets/keybinds/KEYBINDINGS.es.md)
-[![de](https://img.shields.io/badge/lang-de-black.svg)](Source/assets/keybinds/KEYBINDINGS.de.md)
-[![nl](https://img.shields.io/badge/lang-nl-green.svg)](Source/assets/keybinds/KEYBINDINGS.nl.md)
-[![中文](https://img.shields.io/badge/lang-中文-orange.svg)](Source/assets/keybinds/KEYBINDINGS.zh.md)
-[![fr](https://img.shields.io/badge/lang-fr-blue.svg)](Source/assets/keybinds/KEYBINDINGS.fr.md)
-[![ar](https://img.shields.io/badge/lang-AR-orange.svg)](Source/assets/keybinds/KEYBINDINGS.ar.md)
+---
 
-<div align="center">
+## Window Management
 
-<br>
-
-<!-- <a href=#404-keybindings><kbd> <br> 404 keybindings <br> </kbd></a>&ensp;&ensp; -->
-
-<a href=#window-management><kbd> <br> Window Management <br> </kbd></a>&ensp;&ensp;
-<a href=#misc><kbd> <br> Misc <br> </kbd></a>&ensp;&ensp;
-<a href=#launcher><kbd> <br> Launcher <br> </kbd></a>&ensp;&ensp;
-<a href=#hardware-controls><kbd> <br> Hardware Controls <br> </kbd></a>&ensp;&ensp;
-<a href=#utilities><kbd> <br> Utilities <br> </kbd></a>&ensp;&ensp;
-<a href="#theming-and-wallpaper"><kbd> <br> Theming and Wallpaper <br> </kbd></a>&ensp;&ensp;
-<a href=#workspaces><kbd> <br> Workspaces <br> </kbd></a>&ensp;&ensp;
-
-</div><br><br>
-
-<div align="center">
-  <div style="display: flex; flex-wrap: nowrap; justify-content: center;">
-    <img src="Source/assets/archlinux.png" alt="Arch Linux" style="width: 10%; margin: 10px;"/>
-  </div>
-</div>
-
-<!-- # <a id=404-keybindings>404 Keybindings</a> -->
-<!-- # <a id=404-keybindings></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&width=435&lines=404%20Keybindings" width="450"/> -->
-
-Here are all 404 specific keybindings listed.
-
-> [!TIP]  
-> <kbd>Super</kbd> + <kbd>/</kbd> shows the keybindings.
-
-<!-- ## <a id=window-management>Window Management</a> -->
-
-## <a id=window-management></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=435&lines=Window%20Management" width="450"/>
-
-| Keys                                                 | Action                          |
-| :--------------------------------------------------- | :------------------------------ |
-| <kbd>CTRL</kbd> + <kbd>Q</kbd>                       | close focused window            |
-| <kbd>ALT</kbd> + <kbd>F4</kbd>                       | close focused window            |
-| <kbd>SUPER</kbd> + <kbd>Delete</kbd>                 | kill hyprland session           |
-| <kbd>SUPER</kbd> + <kbd>W</kbd>                      | toggle float                    |
-| <kbd>SUPER</kbd> + <kbd>G</kbd>                      | toggle group                    |
-| <kbd>Shift</kbd> + <kbd>F11</kbd>                    | toggle fullscreen               |
-| <kbd>SUPER</kbd> + <kbd>L</kbd>                      | lock screen                     |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>F</kbd>   | toggle pin on focused window    |
-| <kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>Delete</kbd> | logout menu                     |
-| <kbd>ALT</kbd> + <kbd>Control_R</kbd>                | toggle waybar and reload config |
-| <kbd>SUPER</kbd> + <kbd>J</kbd>                      | toggle split                    |
+| Keys | Action |
+| :--- | :----- |
+| `Ctrl + Q` | close focused window |
+| `Alt + F4` | close focused window |
+| `Super + Delete` | kill hyprland session |
+| `Super + W` | toggle float |
+| `Super + G` | toggle group |
+| `Shift + F11` | toggle fullscreen |
+| `Super + L` | lock screen |
+| `Super + Shift + F` | toggle pin on focused window |
+| `Alt + Ctrl + Delete` | logout menu |
+| `Alt + Control_R` | toggle waybar and reload config |
+| `Super + J` | toggle split |
 
 ### Group Navigation
 
-| Keys                                              | Action                        |
-| :------------------------------------------------ | :---------------------------- |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>H</kbd> | change active group backwards |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>L</kbd> | change active group forwards  |
+| Keys | Action |
+| :--- | :----- |
+| `Super + Ctrl + H` | change active group backwards |
+| `Super + Ctrl + L` | change active group forwards |
 
-### Change focus
+### Change Focus
 
-| Keys                                | Action      |
-| :---------------------------------- | :---------- |
-| <kbd>SUPER</kbd> + <kbd>Left</kbd>  | focus left  |
-| <kbd>SUPER</kbd> + <kbd>Right</kbd> | focus right |
-| <kbd>SUPER</kbd> + <kbd>Up</kbd>    | focus up    |
-| <kbd>SUPER</kbd> + <kbd>Down</kbd>  | focus down  |
-| <kbd>ALT</kbd> + <kbd>Tab</kbd>     | cycle focus |
+| Keys | Action |
+| :--- | :----- |
+| `Super + Left` | focus left |
+| `Super + Right` | focus right |
+| `Super + Up` | focus up |
+| `Super + Down` | focus down |
+| `Alt + Tab` | cycle focus |
 
 ### Resize Active Window
 
-| Keys                                                   | Action              |
-| :----------------------------------------------------- | :------------------ |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>Right</kbd> | resize window right |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>Left</kbd>  | resize window left  |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>Up</kbd>    | resize window up    |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>Down</kbd>  | resize window down  |
+| Keys | Action |
+| :--- | :----- |
+| `Super + Shift + Right` | resize window right |
+| `Super + Shift + Left` | resize window left |
+| `Super + Shift + Up` | resize window up |
+| `Super + Shift + Down` | resize window down |
 
-### Move & Resize with mouse
+### Move & Resize with Mouse
 
-| Keys                                    | Action                |
-| :-------------------------------------- | :-------------------- |
-| <kbd>SUPER</kbd> + <kbd>mouse:272</kbd> | hold to move window   |
-| <kbd>SUPER</kbd> + <kbd>mouse:273</kbd> | hold to resize window |
-| <kbd>SUPER</kbd> + <kbd>Z</kbd>         | hold to move window   |
-| <kbd>SUPER</kbd> + <kbd>X</kbd>         | hold to resize window |
+| Keys | Action |
+| :--- | :----- |
+| `Super + Left Click` | hold to move window |
+| `Super + Right Click` | hold to resize window |
+| `Super + Z` | hold to move window |
+| `Super + X` | hold to resize window |
 
-<!-- ## <a id=misc>Misc</a> -->
+---
 
-## <a id=misc></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=435&lines=Misc" width="450"/>
+## Misc
 
-| Keys                                                                     | Action                         |
-| :----------------------------------------------------------------------- | :----------------------------- |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>left</kbd>  | move activewindow to the left  |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>right</kbd> | move activewindow to the right |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>up</kbd>    | move activewindow up           |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>down</kbd>  | move activewindow down         |
+| Keys | Action |
+| :--- | :----- |
+| `Super + Ctrl + Shift + Left` | move active window to the left |
+| `Super + Ctrl + Shift + Right` | move active window to the right |
+| `Super + Ctrl + Shift + Up` | move active window up |
+| `Super + Ctrl + Shift + Down` | move active window down |
 
-<!-- ## <a id=launcher>Launcher</a> -->
+---
 
-## <a id=launcher></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=435&lines=Launcher" width="450"/>
+## Launcher
 
 ### Apps
 
-| Keys                                                   | Action            |
-| :----------------------------------------------------- | :---------------- |
-| <kbd>SUPER</kbd> + <kbd>T</kbd>                        | terminal emulator |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>T</kbd>       | dropdown terminal |
-| <kbd>SUPER</kbd> + <kbd>E</kbd>                        | file explorer     |
-| <kbd>SUPER</kbd> + <kbd>C</kbd>                        | text editor       |
-| <kbd>SUPER</kbd> + <kbd>B</kbd>                        | web browser       |
-| <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>Escape</kbd> | system monitor    |
+| Keys | Action |
+| :--- | :----- |
+| `Super + T` | terminal emulator |
+| `Super + Alt + T` | dropdown terminal |
+| `Super + E` | file explorer |
+| `Super + C` | text editor |
+| `Super + B` | web browser |
+| `Ctrl + Shift + Escape` | system monitor |
 
-### Rofi menus
+### Rofi Menus
 
-| Keys                                               | Action               |
-| :------------------------------------------------- | :------------------- |
-| <kbd>SUPER</kbd> + <kbd>A</kbd>                    | application finder   |
-| <kbd>SUPER</kbd> + <kbd>TAB</kbd>                  | window switcher      |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>E</kbd> | file finder          |
-| <kbd>SUPER</kbd> + <kbd>slash</kbd>                | keybindings hint     |
-| <kbd>SUPER</kbd> + <kbd>comma</kbd>                | emoji picker         |
-| <kbd>SUPER</kbd> + <kbd>period</kbd>               | glyph picker         |
-| <kbd>SUPER</kbd> + <kbd>V</kbd>                    | clipboard            |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>V</kbd> | clipboard manager    |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd> | select rofi launcher |
+| Keys | Action |
+| :--- | :----- |
+| `Super + A` | application finder |
+| `Super + Tab` | window switcher |
+| `Super + Shift + E` | file finder |
+| `Super + /` | keybindings hint |
+| `Super + ,` | emoji picker |
+| `Super + .` | glyph picker |
+| `Super + V` | clipboard |
+| `Super + Shift + V` | clipboard manager |
+| `Super + Shift + A` | select rofi launcher |
 
-<!-- ## <a id="hardware-controls">Hardware Controls</a> -->
+---
 
-## <a id="hardware-controls"></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=435&lines=Hardware%20Controls" width="450"/>
+## Hardware Controls
 
 ### Audio
 
-| Keys                                              | Action             |
-| :------------------------------------------------ | :----------------- |
-| <kbd>None</kbd> + <kbd>F10</kbd>                  | toggle mute output |
-| <kbd>None</kbd> + <kbd>XF86AudioMute</kbd>        | toggle mute output |
-| <kbd>None</kbd> + <kbd>F11</kbd>                  | decrease volume    |
-| <kbd>None</kbd> + <kbd>F12</kbd>                  | increase volume    |
-| <kbd>None</kbd> + <kbd>XF86AudioMicMute</kbd>     | un/mute microphone |
-| <kbd>None</kbd> + <kbd>XF86AudioLowerVolume</kbd> | decrease volume    |
-| <kbd>None</kbd> + <kbd>XF86AudioRaiseVolume</kbd> | increase volume    |
+| Keys | Action |
+| :--- | :----- |
+| `F10` | toggle mute output |
+| `XF86AudioMute` | toggle mute output |
+| `F11` | decrease volume |
+| `F12` | increase volume |
+| `XF86AudioMicMute` | un/mute microphone |
+| `XF86AudioLowerVolume` | decrease volume |
+| `XF86AudioRaiseVolume` | increase volume |
 
 ### Media
 
-| Keys                                        | Action         |
-| :------------------------------------------ | :------------- |
-| <kbd>None</kbd> + <kbd>XF86AudioPlay</kbd>  | play media     |
-| <kbd>None</kbd> + <kbd>XF86AudioPause</kbd> | pause media    |
-| <kbd>None</kbd> + <kbd>XF86AudioNext</kbd>  | next media     |
-| <kbd>None</kbd> + <kbd>XF86AudioPrev</kbd>  | previous media |
+| Keys | Action |
+| :--- | :----- |
+| `XF86AudioPlay` | play media |
+| `XF86AudioPause` | pause media |
+| `XF86AudioNext` | next media |
+| `XF86AudioPrev` | previous media |
 
 ### Brightness
 
-| Keys                                               | Action              |
-| :------------------------------------------------- | :------------------ |
-| <kbd>None</kbd> + <kbd>XF86MonBrightnessUp</kbd>   | increase brightness |
-| <kbd>None</kbd> + <kbd>XF86MonBrightnessDown</kbd> | decrease brightness |
+| Keys | Action |
+| :--- | :----- |
+| `XF86MonBrightnessUp` | increase brightness |
+| `XF86MonBrightnessDown` | decrease brightness |
 
-<!-- ## <a id=utilities>Utilities</a> -->
+---
 
-## <a id=utilities></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=435&lines=Utilities" width="450"/>
+## Utilities
 
-| Keys                                             | Action                 |
-| :----------------------------------------------- | :--------------------- |
-| <kbd>SUPER</kbd> + <kbd>K</kbd>                  | toggle keyboard layout |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>G</kbd> | game mode              |
+| Keys | Action |
+| :--- | :----- |
+| `Super + K` | toggle keyboard layout |
+| `Super + Alt + G` | game mode |
 
 ### Screen Capture
 
-| Keys                                               | Action                 |
-| :------------------------------------------------- | :--------------------- |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> | color picker           |
-| <kbd>SUPER</kbd> + <kbd>P</kbd>                    | snip screen            |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>P</kbd>  | freeze and snip screen |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>P</kbd>   | print monitor          |
-| <kbd>None</kbd> + <kbd>Print</kbd>                 | print all monitors     |
+| Keys | Action |
+| :--- | :----- |
+| `Super + Shift + P` | color picker |
+| `Super + P` | snip screen |
+| `Super + Ctrl + P` | freeze and snip screen |
+| `Super + Alt + P` | print monitor |
+| `Print` | print all monitors |
 
-<!-- ## <a id=theming-and-wallpaper>Theming and Wallpaper</a> -->
+---
 
-## <a id=theming-and-wallpaper></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=435&lines=Theming%20and%20Wallpaper" width="450"/>
+## Theming and Wallpaper
 
-| Keys                                                 | Action                 |
-| :--------------------------------------------------- | :--------------------- |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>Right</kbd> | next wallpaper         |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>Left</kbd>  | previous wallpaper     |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>W</kbd>   | select a wallpaper     |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>Up</kbd>    | next waybar layout     |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>Down</kbd>  | previous waybar layout |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd>   | wallbash mode selector |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>T</kbd>   | select a theme         |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>Y</kbd>   | select animations      |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>U</kbd>   | select hyprlock layout |
+| Keys | Action |
+| :--- | :----- |
+| `Super + Alt + Right` | next wallpaper |
+| `Super + Alt + Left` | previous wallpaper |
+| `Super + Shift + W` | select a wallpaper |
+| `Super + Alt + Up` | next waybar layout |
+| `Super + Alt + Down` | previous waybar layout |
+| `Super + Shift + R` | wallbash mode selector |
+| `Super + Shift + T` | select a theme |
+| `Super + Shift + Y` | select animations |
+| `Super + Shift + U` | select hyprlock layout |
 
-<!-- ## <a id=workspaces>Workspaces</a> -->
+---
 
-## <a id=workspaces></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=435&lines=Workspaces" width="450"/>
+## Workspaces
 
 ### Navigation
 
-| Keys                                                 | Action                                  |
-| :--------------------------------------------------- | :-------------------------------------- |
-| <kbd>SUPER</kbd> + <kbd>1</kbd>                      | navigate to workspace 1                 |
-| <kbd>SUPER</kbd> + <kbd>2</kbd>                      | navigate to workspace 2                 |
-| <kbd>SUPER</kbd> + <kbd>3</kbd>                      | navigate to workspace 3                 |
-| <kbd>SUPER</kbd> + <kbd>4</kbd>                      | navigate to workspace 4                 |
-| <kbd>SUPER</kbd> + <kbd>5</kbd>                      | navigate to workspace 5                 |
-| <kbd>SUPER</kbd> + <kbd>6</kbd>                      | navigate to workspace 6                 |
-| <kbd>SUPER</kbd> + <kbd>7</kbd>                      | navigate to workspace 7                 |
-| <kbd>SUPER</kbd> + <kbd>8</kbd>                      | navigate to workspace 8                 |
-| <kbd>SUPER</kbd> + <kbd>9</kbd>                      | navigate to workspace 9                 |
-| <kbd>SUPER</kbd> + <kbd>0</kbd>                      | navigate to workspace 10                |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>Down</kbd> | navigate to the nearest empty workspace |
-| <kbd>SUPER</kbd> + <kbd>mouse_down</kbd>             | next workspace                          |
-| <kbd>SUPER</kbd> + <kbd>mouse_up</kbd>               | previous workspace                      |
+| Keys | Action |
+| :--- | :----- |
+| `Super + 1-0` | navigate to workspace 1-10 |
+| `Super + Ctrl + Down` | navigate to the nearest empty workspace |
+| `Super + Scroll Down` | next workspace |
+| `Super + Scroll Up` | previous workspace |
 
-#### Relative workspace
+### Relative Workspace
 
-| Keys                                                  | Action                            |
-| :---------------------------------------------------- | :-------------------------------- |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>Right</kbd> | change active workspace forwards  |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>Left</kbd>  | change active workspace backwards |
+| Keys | Action |
+| :--- | :----- |
+| `Super + Ctrl + Right` | change active workspace forwards |
+| `Super + Ctrl + Left` | change active workspace backwards |
 
-#### Special workspace
+### Special Workspace (Scratchpad)
 
-| Keys                                               | Action                      |
-| :------------------------------------------------- | :-------------------------- |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>S</kbd> | move to scratchpad          |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>S</kbd>   | move to scratchpad (silent) |
-| <kbd>SUPER</kbd> + <kbd>S</kbd>                    | toggle scratchpad           |
+| Keys | Action |
+| :--- | :----- |
+| `Super + Shift + S` | move to scratchpad |
+| `Super + Alt + S` | move to scratchpad (silent) |
+| `Super + S` | toggle scratchpad |
 
-#### Move window silently
+### Move Window to Workspace
 
-| Keys                                             | Action                        |
-| :----------------------------------------------- | :---------------------------- |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>1</kbd> | move to workspace 1 (silent)  |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>2</kbd> | move to workspace 2 (silent)  |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>3</kbd> | move to workspace 3 (silent)  |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>4</kbd> | move to workspace 4 (silent)  |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>5</kbd> | move to workspace 5 (silent)  |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>6</kbd> | move to workspace 6 (silent)  |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>7</kbd> | move to workspace 7 (silent)  |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>8</kbd> | move to workspace 8 (silent)  |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>9</kbd> | move to workspace 9 (silent)  |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>0</kbd> | move to workspace 10 (silent) |
+| Keys | Action |
+| :--- | :----- |
+| `Super + Shift + 1-0` | move to workspace 1-10 |
+| `Super + Alt + 1-0` | move to workspace 1-10 (silent) |
+| `Super + Alt + Ctrl + Right` | move window to next relative workspace |
+| `Super + Alt + Ctrl + Left` | move window to previous relative workspace |
 
-### Move window to workspace
+---
 
-| Keys                                               | Action               |
-| :------------------------------------------------- | :------------------- |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>1</kbd> | move to workspace 1  |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>2</kbd> | move to workspace 2  |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>3</kbd> | move to workspace 3  |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>4</kbd> | move to workspace 4  |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>5</kbd> | move to workspace 5  |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>6</kbd> | move to workspace 6  |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>7</kbd> | move to workspace 7  |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>8</kbd> | move to workspace 8  |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>9</kbd> | move to workspace 9  |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>0</kbd> | move to workspace 10 |
+## Custom Keybindings
 
-| Keys                                                                   | Action                                     |
-| :--------------------------------------------------------------------- | :----------------------------------------- |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>Right</kbd> | move window to next relative workspace     |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>Left</kbd>  | move window to previous relative workspace |
-
-## <a id="custom-keybindings"></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=435&lines=Custom%20Keybindings" width="450"/>
-
-You can define your own keybindings by editing your preferences file at:
+Add custom keybindings in:
 
 ```bash
 ~/.config/hypr/userprefs.conf
 ```
 
-For example, to create a keybinding that launches the **404 Game Launcher**, add the following line:
+Example:
 
 ```ini
-bind = $mainMod, SPACE, exec, $HOME/.local/lib/404/gamelauncher.sh
+bind = $mainMod, SPACE, exec, rofi -show drun
 ```
-
-This will bind the **Game Launcher** to <kbd>SUPER</kbd> + <kbd>Space</kbd>.  
-You can replace `SPACE` with any other key you prefer.
-
-The `gamelauncher.sh` script is included by default and lives at:
-
-```bash
-~/.local/lib/404/gamelauncher.sh
-```
-
-<!--
-<div align="right">
-  <br>
-  <a href="#-design-by-t2"><kbd> <br> 🡅 <br> </kbd></a>
-</div>
-
-<div align="center">
-
-</div>
--->
-
-<div align="right">
-  <br>
-  <a href="#-design-by-t2"><kbd> <br> 🡅 <br> </kbd></a>
-</div>
-
-<div align="right">
-  <sub>Last edited on: 02/01/2025<span id="last-edited"></span></sub>
-</div>
