@@ -60,7 +60,7 @@ git pull
 
 ## Keybindings
 
-See [KEYBINDINGS.md](KEYBINDINGS.md)
+See [KEYBINDINGS.md](ASSETS/KEYBINDINGS.md)
 
 ---
 
