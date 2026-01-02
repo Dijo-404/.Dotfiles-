@@ -1,6 +1,6 @@
 # Team Roles and Responsibilities
 
-This document outlines the different roles and responsibilities within the HyDE project.
+This document outlines the different roles and responsibilities within the 404 project.
 
 ## Entry Paths for New Contributors
 

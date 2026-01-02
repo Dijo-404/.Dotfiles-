@@ -1,12 +1,12 @@
 <div align = center>
   <a href="https://discord.gg/AYbJ9MJez7">
-    <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FmT5YqjaJFh%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&style=for-the-badge&logo=discord&logoSize=auto&label=The%20HyDe%20Project&labelColor=ebbcba&color=c79bf0">
+    <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FmT5YqjaJFh%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&style=for-the-badge&logo=discord&logoSize=auto&label=The%20404%20Project&labelColor=ebbcba&color=c79bf0">
   </a>
 </div>
 
 ###### _<div align="right"><a id=-design-by-t2></a><sub>// design by t2</sub></div>_
 
-![hyde_banner](../assets/hyde_banner.png)
+![404_banner](../assets/404_banner.png)
 
 <!--
 Multi-language README support
@@ -30,7 +30,7 @@ Multi-language README support
 <a href="#estilos"><kbd> <br> Estilos <br> </kbd></a>&ensp;&ensp;
 <a href="../../KEYBINDINGS.md"><kbd> <br> Atalhos de teclado <br> </kbd></a>&ensp;&ensp;
 <a href="https://www.youtube.com/watch?v=2rWqdKU1vu8&list=PLt8rU_ebLsc5yEHUVsAQTqokIBMtx3RFY&index=1"><kbd> <br> Youtube <br> </kbd></a>&ensp;&ensp;
-<a href="https://hydeproject.pages.dev/"><kbd> <br> Wiki <br> </kbd></a>&ensp;&ensp;
+<a href="https://404project.pages.dev/"><kbd> <br> Wiki <br> </kbd></a>&ensp;&ensp;
 <a href="https://discord.gg/qWehcFJxPa"><kbd> <br> Discord <br> </kbd></a>
 
 </div><br><br>
@@ -38,20 +38,16 @@ Multi-language README support
 <div align="center">
   <div style="display: flex; flex-wrap: nowrap; justify-content: center;">
     <img src="../assets/archlinux.png" alt="Arch Linux" style="width: 10%; margin: 10px;"/>
-    <img src="../assets/cachyos.png" alt="CachyOS" style="width: 10%; margin: 10px;"/>
-    <img src="../assets/endeavouros.png" alt="EndeavourOS" style="width: 10%; margin: 10px;"/>
-    <img src="../assets/garuda.png" alt="Garuda" style="width: 10%; margin: 10px;"/>
-    <img src="../assets/nixos.png" alt="NixOS" style="width: 10%; margin: 10px;"/>
   </div>
 </div>
 
 Confira a nota completa:
-[Jornada para HyDE e além](../../Hyprdots-to-HyDE.md)
+[Jornada para 404 e além](../../Hyprdots-to-404.md)
 
 <!--
-<img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FmT5YqjaJFh%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&style=for-the-badge&logo=discord&logoSize=auto&label=The%20HyDe%20Project&labelColor=ebbcba&color=c79bf0">
+<img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FmT5YqjaJFh%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&style=for-the-badge&logo=discord&logoSize=auto&label=The%20404%20Project&labelColor=ebbcba&color=c79bf0">
 
-<img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FmT5YqjaJFh%3Fwith_counts%3Dtrue&query=%24.approximate_presence_count&suffix=%20online&style=for-the-badge&logo=discord&logoSize=auto&label=The%20HyDe%20Project&labelColor=ebbcba&color=c79bf0">
+<img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FmT5YqjaJFh%3Fwith_counts%3Dtrue&query=%24.approximate_presence_count&suffix=%20online&style=for-the-badge&logo=discord&logoSize=auto&label=The%20404%20Project&labelColor=ebbcba&color=c79bf0">
 -->
 
 <https://github.com/prasanthrangan/hyprdots/assets/106020512/7f8fadc8-e293-4482-a851-e9c6464f5265>
@@ -64,9 +60,9 @@ Confira a nota completa:
 ---
 
 O script de instalação foi desenvolvido para uma instalação mínima do [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux), mas **pode** funcionar em algumas [distros baseadas no Arch](https://wiki.archlinux.org/title/Arch-based_distributions).
-Embora instalar o HyDE com outro [ambiente desktop (DE)](https://wiki.archlinux.org/title/Desktop_environment) ou [gerenciador de janela (WM)](https://wiki.archlinux.org/title/Window_manager) deva funcionar, devido à sua configuração altamente personalizada, isso **pode** causar conflitos com os temas do seu [GTK](https://wiki.archlinux.org/title/GTK)/[Qt](https://wiki.archlinux.org/title/Qt), [Shell](https://wiki.archlinux.org/title/Command-line_shell), [SDDM](https://wiki.archlinux.org/title/SDDM), [GRUB](https://wiki.archlinux.org/title/GRUB), etc. o que será por sua conta e risco.
+Embora instalar o 404 com outro [ambiente desktop (DE)](https://wiki.archlinux.org/title/Desktop_environment) ou [gerenciador de janela (WM)](https://wiki.archlinux.org/title/Window_manager) deva funcionar, devido à sua configuração altamente personalizada, isso **pode** causar conflitos com os temas do seu [GTK](https://wiki.archlinux.org/title/GTK)/[Qt](https://wiki.archlinux.org/title/Qt), [Shell](https://wiki.archlinux.org/title/Command-line_shell), [SDDM](https://wiki.archlinux.org/title/SDDM), [GRUB](https://wiki.archlinux.org/title/GRUB), etc. o que será por sua conta e risco.
 
-Para o suporte a NixOS, existe um projeto separado sendo mantido em @ [Hydenix](https://github.com/richen604/hydenix/tree/main)
+Para o suporte a NixOS, existe um projeto separado sendo mantido em @ [404nix](https://github.com/richen604/404nix/tree/main)
 
 > [!IMPORTANT]
 > O script de instalação detectará automaticamente uma placa NVIDIA e instalará os drivers nvidia-open-dkms para o seu kernel.
@@ -79,13 +75,13 @@ Para instalar, execute os comandos abaixo:
 
 ```shell
 pacman -S --needed git base-devel
-git clone --depth 1 https://github.com/HyDE-Project/HyDE ~/HyDE
-cd ~/HyDE/Scripts
+git clone --depth 1 https://github.com/404-Project/404 ~/404
+cd ~/404/Scripts
 ./install.sh
 ```
 
 > [!TIP]
-> Você também pode adicionar outros aplicativos que deseja instalar juntamente com o HyDE no arquivo `Scripts/pkg_user.lst` e passá-lo como parâmetro para o script de instalação, assim:
+> Você também pode adicionar outros aplicativos que deseja instalar juntamente com o 404 no arquivo `Scripts/pkg_user.lst` e passá-lo como parâmetro para o script de instalação, assim:
 >
 > ```shell
 > ./install.sh pkg_user.lst
@@ -97,11 +93,11 @@ cd ~/HyDE/Scripts
 
 <!--
 
-As a second install option, you can also use `Hyde-install`, which might be easier for some.
-View installation instructions for HyDE in [Hyde-cli - Usage](https://github.com/kRHYME7/Hyde-cli?tab=readme-ov-file#usage).
+As a second install option, you can also use `404-install`, which might be easier for some.
+View installation instructions for 404 in [404-cli - Usage](https://github.com/kRHYME7/404-cli?tab=readme-ov-file#usage).
 -->
 Por favor, reinicie o sistema após o script concluir a instalação e levá-lo à tela de login do SDDM (ou a uma tela preta) pela primeira vez.
-Para mais detalhes, por favor consulte a [wiki de instalação](https://github.com/HyDE-Project/HyDE/wiki/installation).
+Para mais detalhes, por favor consulte a [wiki de instalação](https://github.com/404-Project/404/wiki/installation).
 
 <div align="right">
   <br>
@@ -113,10 +109,10 @@ Para mais detalhes, por favor consulte a [wiki de instalação](https://github.c
 
 ---
 
-Para atualizar o HyDE, você precisará puxar as alterações mais recentes do GitHub e restaurar as configurações executando os seguintes comandos:
+Para atualizar o 404, você precisará puxar as alterações mais recentes do GitHub e restaurar as configurações executando os seguintes comandos:
 
 ```shell
-cd ~/HyDE/Scripts
+cd ~/404/Scripts
 git pull origin master
 ./install.sh -r
 ```
@@ -126,8 +122,8 @@ git pull origin master
 > No entanto, todas as configurações substituídas são armazenadas em backup e podem ser recuperadas no diretório `~/.config/cfg_backups`.
 
 <!--
-As a second update option, you can use `Hyde restore ...`, which does have a better way of managing restore and backup options.
-For more details, you can refer to [Hyde-cli - dots management wiki](https://github.com/kRHYME7/Hyde-cli/wiki/Dots-Management).
+As a second update option, you can use `404 restore ...`, which does have a better way of managing restore and backup options.
+For more details, you can refer to [404-cli - dots management wiki](https://github.com/kRHYME7/404-cli/wiki/Dots-Management).
 -->
 
 <div align="right">
@@ -141,23 +137,12 @@ For more details, you can refer to [Hyde-cli - dots management wiki](https://git
 ---
 
 Todos os nossos temas oficiais estão armazenados em um repositório separado, permitindo que os usuários os instalem utilizando o themepatcher.
-Para mais informações, visite [HyDE-Project/hyde-themes](https://github.com/HyDE-Project/hyde-themes).
+Para mais informações, visite [404-Project/404-themes](https://github.com/404-Project/404-themes).
 
 <div align="center">
   <table><tr><td>
 
-[![Catppuccin-Latte](https://placehold.co/130x30/dd7878/eff1f5?text=Catppuccin-Latte&font=Oswald)](https://github.com/HyDE-Project/hyde-themes/tree/Catppuccin-Latte)
-[![Catppuccin-Mocha](https://placehold.co/130x30/b4befe/11111b?text=Catppuccin-Mocha&font=Oswald)](https://github.com/HyDE-Project/hyde-themes/tree/Catppuccin-Mocha)
-[![Decay-Green](https://placehold.co/130x30/90ceaa/151720?text=Decay-Green&font=Oswald)](https://github.com/HyDE-Project/hyde-themes/tree/Decay-Green)
-[![Edge-Runner](https://placehold.co/130x30/fada16/000000?text=Edge-Runner&font=Oswald)](https://github.com/HyDE-Project/hyde-themes/tree/Edge-Runner)
-[![Frosted-Glass](https://placehold.co/130x30/7ed6ff/1e4c84?text=Frosted-Glass&font=Oswald)](https://github.com/HyDE-Project/hyde-themes/tree/Frosted-Glass)
-[![Graphite-Mono](https://placehold.co/130x30/a6a6a6/262626?text=Graphite-Mono&font=Oswald)](https://github.com/HyDE-Project/hyde-themes/tree/Graphite-Mono)
-[![Gruvbox-Retro](https://placehold.co/130x30/475437/B5CC97?text=Gruvbox-Retro&font=Oswald)](https://github.com/HyDE-Project/hyde-themes/tree/Gruvbox-Retro)
-[![Material-Sakura](https://placehold.co/130x30/f2e9e1/b4637a?text=Material-Sakura&font=Oswald)](https://github.com/HyDE-Project/hyde-themes/tree/Material-Sakura)
-[![Nordic-Blue](https://placehold.co/130x30/D9D9D9/476A84?text=Nordic-Blue&font=Oswald)](https://github.com/HyDE-Project/hyde-themes/tree/Nordic-Blue)
-[![Rosé-Pine](https://placehold.co/130x30/c4a7e7/191724?text=Rosé-Pine&font=Oswald)](https://github.com/HyDE-Project/hyde-themes/tree/Rose-Pine)
-[![Synth-Wave](https://placehold.co/130x30/495495/ff7edb?text=Synth-Wave&font=Oswald)](https://github.com/HyDE-Project/hyde-themes/tree/Synth-Wave)
-[![Tokyo-Night](https://placehold.co/130x30/7aa2f7/24283b?text=Tokyo-Night&font=Oswald)](https://github.com/HyDE-Project/hyde-themes/tree/Tokyo-Night)
+[![Catppuccin-Mocha](https://placehold.co/130x30/b4befe/11111b?text=Catppuccin-Mocha&font=Oswald)](https://github.com/404-Project/404-themes/tree/Catppuccin-Mocha)
 
   </td></tr></table>
 </div>
@@ -165,7 +150,7 @@ Para mais informações, visite [HyDE-Project/hyde-themes](https://github.com/Hy
 > [!TIP]
 > Qualquer pessoa, inclusive você, pode criar, manter e compartilhar temas adicionais, todos os quais podem ser instalados utilizando o themepatcher!
 > Para criar seu próprio tema personalizado, consulte [theming wiki](https://github.com/prasanthrangan/hyprdots/wiki/Theming).
-> Se você deseja que seu tema HyDE seja exibido ou quer explorar temas não oficiais, visite [kRHYME7/hyde-gallery](https://github.com/kRHYME7/hyde-gallery)!
+> Se você deseja que seu tema 404 seja exibido ou quer explorar temas não oficiais, visite [kRHYME7/404-gallery](https://github.com/kRHYME7/404-gallery)!
 
 <div align="right">
   <br>
@@ -241,10 +226,10 @@ Para mais informações, visite [HyDE-Project/hyde-themes](https://github.com/Hy
 
 ---
 
-<a href="https://star-history.com/#hyde-project/hyde&hyde-project/hyde-gallery&hyde-project/hyde-themes&Timeline">
+<a href="https://star-history.com/#404-project/404&404-project/404-gallery&404-project/404-themes&Timeline">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=hyde-project/hyde&type=Timeline&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=hyde-project/hyde&type=Timeline" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=hyde-project/hyde&type=Timeline" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=404-project/404&type=Timeline&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=404-project/404&type=Timeline" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=404-project/404&type=Timeline" />
  </picture>
 </a>

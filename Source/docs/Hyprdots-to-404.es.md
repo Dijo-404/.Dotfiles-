@@ -1,8 +1,8 @@
 # ¡Hola! 👋 Aquí Khing
 
-[![de](https://img.shields.io/badge/lang-de-black.svg)](./Hyprdots-to-HyDE.de.md)
-[![en](https://img.shields.io/badge/lang-en-red.svg)](../../Hyprdots-to-HyDE.md)
-[![中文](https://img.shields.io/badge/lang-中文-orange.svg)](./Hyprdots-to-HyDE.zh.md)
+[![de](https://img.shields.io/badge/lang-de-black.svg)](./Hyprdots-to-404.de.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](../../Hyprdots-to-404.md)
+[![中文](https://img.shields.io/badge/lang-中文-orange.svg)](./Hyprdots-to-404.zh.md)
 
 ## Este fork mejorará y corregirá prasanthrangan/hyprdots con el tiempo
 
@@ -17,7 +17,7 @@
 
 ### ¿Quiénes son los $USER?
 
-> **NOTA**: Si estás confundido sobre por qué cada vez que ejecutas `install.sh -r` se sobrescriben tus configuraciones, deberías hacer un fork de [HyDE](https://github.com/HyDE-Project/HyDE), editar el archivo `*.lst` y ejecutar el script. Esa es la forma prevista.
+> **NOTA**: Si estás confundido sobre por qué cada vez que ejecutas `install.sh -r` se sobrescriben tus configuraciones, deberías hacer un fork de [404](https://github.com/404-Project/404), editar el archivo `*.lst` y ejecutar el script. Esa es la forma prevista.
 
 ¿Quiénes son los $USER?
 
@@ -32,7 +32,7 @@
 
 - [ ] **Portabilidad**
 
-  - [ ] Los archivos específicos de HyDE deben importarse al $USER, no al revés
+  - [ ] Los archivos específicos de 404 deben importarse al $USER, no al revés
   - [x] Mantenerlo minimalista
   - [ ] Hacerlo empaquetable
   - [x] Seguir las especificaciones XDG
@@ -40,7 +40,7 @@
 
 - [ ] **Extensibilidad**
 
-  - [ ] Agregar un sistema de extensiones para HyDE
+  - [ ] Agregar un sistema de extensiones para 404
   - [ ] Instalación predecible
 
 - [ ] **Rendimiento**
@@ -51,7 +51,7 @@
 - [ ] **Manejabilidad**
 
   - [ ] Corregir scripts (compatibles con shellcheck)
-  - [x] Mover scripts a `./lib/hyde`
+  - [x] Mover scripts a `./lib/404`
   - [x] Hacer que los scripts `wallbash*.sh` sean monolíticos para solucionar problemas de wallbash
 
 - [ ] **Mejor Abstracción**
@@ -66,11 +66,11 @@
 
 ---
 
-Aquí está cómo podemos actualizar las configuraciones específicas de Hyprland de HyDE sin cambiar las preferencias del usuario. No necesitamos el archivo "userprefs". En su lugar, podemos usar el archivo `hyprland.conf` de HyDE y realizar los cambios preferidos por el $USER directamente en la configuración. Con este enfoque, no se romperá HyDE y HyDE no romperá tus propios dotfiles.
+Aquí está cómo podemos actualizar las configuraciones específicas de Hyprland de 404 sin cambiar las preferencias del usuario. No necesitamos el archivo "userprefs". En su lugar, podemos usar el archivo `hyprland.conf` de 404 y realizar los cambios preferidos por el $USER directamente en la configuración. Con este enfoque, no se romperá 404 y 404 no romperá tus propios dotfiles.
 
 ![Estructura de Hyprland](https://github.com/user-attachments/assets/91b35c2e-0003-458f-ab58-18fc29541268)
 
-# ¿Por qué llamarlo HyDE?
+# ¿Por qué llamarlo 404?
 
 Como el último colaborador en pie, no sé qué pretendía el creador original. Pero creo que es un buen nombre. Solo que no sé qué significa. 🤷‍♂️
 
@@ -80,4 +80,4 @@ Aquí están algunas de mis especulaciones:
 - **Hy**prland **D**otfiles **E**xtended - Dotfiles extensibles para Hyprland.
 - Pero la que más sentido tiene es - **Hy**prland **D**esktop **E**nvironment - ya que Hyprland suele considerarse un gestor de ventanas (WM) para Wayland, no un entorno de escritorio completo, y este dotfile lo convierte en un entorno de escritorio completo.
 
-Siéntete libre de sugerir tu propio significado de HyDE. 🤔
+Siéntete libre de sugerir tu propio significado de 404. 🤔

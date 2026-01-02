@@ -1,8 +1,8 @@
 # Hallo! 👋 Delphin hier
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](../../Hyprdots-to-HyDE.md)
-[![中文](https://img.shields.io/badge/lang-中文-orange.svg)](./Hyprdots-to-HyDE.zh.md)
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](./Hyprdots-to-HyDE.es.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](../../Hyprdots-to-404.md)
+[![中文](https://img.shields.io/badge/lang-中文-orange.svg)](./Hyprdots-to-404.zh.md)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](./Hyprdots-to-404.es.md)
 
 ## Dieser Fork wird prasanthrangan/hyprdots im Laufe der Zeit verbessern und korrigieren
 
@@ -17,7 +17,7 @@
 
 ### Wer sind die $USER?
 
-> **HINWEIS**: Wenn Sie verwirrt sind, warum jedes `install.sh -r` Ihre Konfigurationen überschreibt, sollten Sie [HyDE](https://github.com/HyDE-Project/HyDE) forken, die Datei `*.lst` bearbeiten und das Skript ausführen. Das ist der beabsichtigte Weg.
+> **HINWEIS**: Wenn Sie verwirrt sind, warum jedes `install.sh -r` Ihre Konfigurationen überschreibt, sollten Sie [404](https://github.com/404-Project/404) forken, die Datei `*.lst` bearbeiten und das Skript ausführen. Das ist der beabsichtigte Weg.
 > Wer sind die $USER?
 > ✅ Ich möchte keinen Fork pflegen
 > ✅ Sie wollen mit diesem großartigen Dotfile auf dem Laufenden bleiben
@@ -30,7 +30,7 @@
 
 - [ ] **Portabel**
 
-  - [ ] HyDE-spezifische Dateien sollten in $USER importiert werden, nicht andersherum
+  - [ ] 404-spezifische Dateien sollten in $USER importiert werden, nicht andersherum
   - [x] Es minimal halten
   - [ ] Mach es paketierbar
   - [x] XDG-Spezifikationen befolgen
@@ -38,7 +38,7 @@
 
 - [ ] **Erweiterbar**
 
-  - [ ] HyDE-Erweiterungssystem hinzufügen
+  - [ ] 404-Erweiterungssystem hinzufügen
   - [ ] Vorhersagbare Installation
 
 - [ ] **Leistung**
@@ -49,7 +49,7 @@
 - [ ] **Verwaltbar**
 
   - [ ] Skripte korrigieren (shellcheck-kompatibel)
-  - [x] Skripte nach `./lib/hyde` verschieben
+  - [x] Skripte nach `./lib/404` verschieben
   - [x] Skripte `wallbash*.sh` monolithisch machen, um wallbash-Probleme zu beheben
 
 - [ ] **Bessere Abstraktion**
@@ -64,10 +64,10 @@
 
 ---
 
-So können wir HyDE-spezifische Hyprland-Einstellungen aktualisieren, ohne die Benutzereinstellungen zu ändern. Wir brauchen die „userprefs“-Datei nicht. Stattdessen können wir HyDEs `hyprland.conf` auslesen und $USER bevorzugte Änderungen direkt in der Konfiguration vornehmen. Mit diesem Ansatz wird HyDE nicht kaputt gehen und HyDE wird Ihre eigenen Punkte nicht kaputt machen.
+So können wir 404-spezifische Hyprland-Einstellungen aktualisieren, ohne die Benutzereinstellungen zu ändern. Wir brauchen die „userprefs“-Datei nicht. Stattdessen können wir 404s `hyprland.conf` auslesen und $USER bevorzugte Änderungen direkt in der Konfiguration vornehmen. Mit diesem Ansatz wird 404 nicht kaputt gehen und 404 wird Ihre eigenen Punkte nicht kaputt machen.
 ![Hyprland-Struktur](https://github.com/user-attachments/assets/91b35c2e-0003-458f-ab58-18fc29541268)
 
-# Warum der Name HyDE?
+# Warum der Name 404?
 
 Als letzter Mitwirkender weiß ich nicht, was der ursprüngliche Schöpfer beabsichtigte. Aber ich denke, es ist ein guter Name. Ich weiß nur nicht, wofür er steht. 🤷‍♂️
 Hier sind einige meiner Spekulationen:
@@ -77,4 +77,4 @@ Hier sind einige meiner Spekulationen:
 - Aber am meisten Sinn macht - **Hy**prland **D**esktop **E**nvironment - da Hyprland normalerweise als WM für Wayland betrachtet wird, nicht als vollwertiges D.E. und diese
   Dotfile macht es irgendwie zu einem vollwertigen D.E.
 
-Du kannst gerne deine eigene Bedeutung von HyDE vorschlagen. 🤔
+Du kannst gerne deine eigene Bedeutung von 404 vorschlagen. 🤔

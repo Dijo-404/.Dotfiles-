@@ -1,12 +1,12 @@
 <div align = center>
     <a href="https://discord.gg/AYbJ9MJez7">
-<img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FmT5YqjaJFh%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&style=for-the-badge&logo=discord&logoSize=auto&label=The%20HyDe%20Project&labelColor=ebbcba&color=c79bf0">
+<img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FmT5YqjaJFh%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&style=for-the-badge&logo=discord&logoSize=auto&label=The%20404%20Project&labelColor=ebbcba&color=c79bf0">
     </a>
 </div>
 
 ###### _<div align="right"><a id=-design-by-t2></a><sub>// design by t2</sub></div>_
 
-![hyde_banner](Source/assets/hyde_banner.png)
+![404_banner](Source/assets/404_banner.png)
 
 <!--
 Multi-language KEYBINDINGS support
@@ -25,7 +25,7 @@ Multi-language KEYBINDINGS support
 
 <br>
 
-<!-- <a href=#hyde-keybindings><kbd> <br> HyDE keybindings <br> </kbd></a>&ensp;&ensp; -->
+<!-- <a href=#404-keybindings><kbd> <br> 404 keybindings <br> </kbd></a>&ensp;&ensp; -->
 
 <a href=#window-management><kbd> <br> Window Management <br> </kbd></a>&ensp;&ensp;
 <a href=#misc><kbd> <br> Misc <br> </kbd></a>&ensp;&ensp;
@@ -40,17 +40,13 @@ Multi-language KEYBINDINGS support
 <div align="center">
   <div style="display: flex; flex-wrap: nowrap; justify-content: center;">
     <img src="Source/assets/archlinux.png" alt="Arch Linux" style="width: 10%; margin: 10px;"/>
-    <img src="Source/assets/cachyos.png" alt="CachyOS" style="width: 10%; margin: 10px;"/>
-    <img src="Source/assets/endeavouros.png" alt="EndeavourOS" style="width: 10%; margin: 10px;"/>
-    <img src="Source/assets/garuda.png" alt="Garuda" style="width: 10%; margin: 10px;"/>
-    <img src="Source/assets/nixos.png" alt="NixOS" style="width: 10%; margin: 10px;"/>
   </div>
 </div>
 
-<!-- # <a id=hyde-keybindings>HyDE Keybindings</a> -->
-<!-- # <a id=hyde-keybindings></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&width=435&lines=HyDE%20Keybindings" width="450"/> -->
+<!-- # <a id=404-keybindings>404 Keybindings</a> -->
+<!-- # <a id=404-keybindings></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&width=435&lines=404%20Keybindings" width="450"/> -->
 
-Here are all HyDE specific keybindings listed.
+Here are all 404 specific keybindings listed.
 
 > [!TIP]  
 > <kbd>Super</kbd> + <kbd>/</kbd> shows the keybindings.
@@ -295,10 +291,10 @@ You can define your own keybindings by editing your preferences file at:
 ~/.config/hypr/userprefs.conf
 ```
 
-For example, to create a keybinding that launches the **HyDE Game Launcher**, add the following line:
+For example, to create a keybinding that launches the **404 Game Launcher**, add the following line:
 
 ```ini
-bind = $mainMod, SPACE, exec, $HOME/.local/lib/hyde/gamelauncher.sh
+bind = $mainMod, SPACE, exec, $HOME/.local/lib/404/gamelauncher.sh
 ```
 
 This will bind the **Game Launcher** to <kbd>SUPER</kbd> + <kbd>Space</kbd>.  
@@ -307,7 +303,7 @@ You can replace `SPACE` with any other key you prefer.
 The `gamelauncher.sh` script is included by default and lives at:
 
 ```bash
-~/.local/lib/hyde/gamelauncher.sh
+~/.local/lib/404/gamelauncher.sh
 ```
 
 <!--

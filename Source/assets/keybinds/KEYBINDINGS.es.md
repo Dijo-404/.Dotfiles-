@@ -1,12 +1,12 @@
 <div align = center>
   <a href="https://discord.gg/AYbJ9MJez7">
-    <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FmT5YqjaJFh%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&style=for-the-badge&logo=discord&logoSize=auto&label=The%20HyDe%20Project&labelColor=ebbcba&color=c79bf0">
+    <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FmT5YqjaJFh%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&style=for-the-badge&logo=discord&logoSize=auto&label=The%20404%20Project&labelColor=ebbcba&color=c79bf0">
   </a>
 </div>
 
 ###### _<div align="right"><a id=-design-by-t2></a><sub>// design by t2</sub></div>_
 
-![hyde_banner](../assets/hyde_banner.png)
+![404_banner](../assets/404_banner.png)
 
 <!--
 Soporte multilingüe de KEYBINDINGS
@@ -23,7 +23,7 @@ Soporte multilingüe de KEYBINDINGS
 
 <br>
 
-<!-- <a href=#hyde-combinaciones><kbd> <br> HyDE combinaciones <br> </kbd></a>&ensp;&ensp; -->
+<!-- <a href=#404-combinaciones><kbd> <br> 404 combinaciones <br> </kbd></a>&ensp;&ensp; -->
 
 <a href=#gestión-de-ventanas><kbd> <br> Gestión de ventanas <br> </kbd></a>&ensp;&ensp;
 <a href=#varios><kbd> <br> Varios <br> </kbd></a>&ensp;&ensp;
@@ -38,17 +38,13 @@ Soporte multilingüe de KEYBINDINGS
 <div align="center">
   <div style="display: flex; flex-wrap: nowrap; justify-content: center;">
     <img src="../assets/archlinux.png" alt="Arch Linux" style="width: 10%; margin: 10px;"/>
-    <img src="../assets/cachyos.png" alt="CachyOS" style="width: 10%; margin: 10px;"/>
-    <img src="../assets/endeavouros.png" alt="EndeavourOS" style="width: 10%; margin: 10px;"/>
-    <img src="../assets/garuda.png" alt="Garuda" style="width: 10%; margin: 10px;"/>
-    <img src="../assets/nixos.png" alt="NixOS" style="width: 10%; margin: 10px;"/>
   </div>
 </div>
 
-<!-- # <a id=hyde-combinaciones>HyDE Combinaciones</a> -->
-<!-- # <a id=hyde-combinaciones></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&width=435&lines=HyDE%20Combinaciones" width="450"/> -->
+<!-- # <a id=404-combinaciones>404 Combinaciones</a> -->
+<!-- # <a id=404-combinaciones></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&width=435&lines=404%20Combinaciones" width="450"/> -->
 
-Aquí están listados todos los keybindings específicos de HyDE.
+Aquí están listados todos los keybindings específicos de 404.
 
 >[!TIP]
 > <kbd>Super</kbd> + <kbd>/</kbd> muestra las combinaciones de teclas.
@@ -289,10 +285,10 @@ Puedes definir tus propios atajos editando tu archivo de preferencias en:
 ~/.config/hypr/userprefs.conf
 ```
 
-Por ejemplo, para crear un atajo que inicie el **HyDE Game Launcher**, agrega esta línea:
+Por ejemplo, para crear un atajo que inicie el **404 Game Launcher**, agrega esta línea:
 
 ```ini
-bind = $mainMod, SPACE, exec, $HOME/.local/lib/hyde/gamelauncher.sh
+bind = $mainMod, SPACE, exec, $HOME/.local/lib/404/gamelauncher.sh
 ```
 
 Esto asignará el **Game Launcher** a <kbd>SUPER</kbd> + <kbd>Espacio</kbd>.  
@@ -301,7 +297,7 @@ Puedes reemplazar `SPACE` con cualquier otra tecla que prefieras.
 El script `gamelauncher.sh` viene incluido por defecto y se encuentra en:
 
 ```bash
-~/.local/lib/hyde/gamelauncher.sh
+~/.local/lib/404/gamelauncher.sh
 ```
 
 <!--

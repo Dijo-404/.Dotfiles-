@@ -1,12 +1,12 @@
 <div align = center>
     <a href="https://discord.gg/AYbJ9MJez7">
-<img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FmT5YqjaJFh%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&style=for-the-badge&logo=discord&logoSize=auto&label=The%20HyDe%20Project&labelColor=ebbcba&color=c79bf0">
+<img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FmT5YqjaJFh%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&style=for-the-badge&logo=discord&logoSize=auto&label=The%20404%20Project&labelColor=ebbcba&color=c79bf0">
     </a>
 </div>
 
 ###### _<div align="right"><a id=-design-by-t2></a><sub>// design by t2</sub></div>_
 
-![hyde_banner](../assets/hyde_banner.png)
+![404_banner](../assets/404_banner.png)
 
 <!--
 Multi-language KEYBINDINGS support
@@ -23,7 +23,7 @@ Multi-language KEYBINDINGS support
 
 <br>
 
-<!-- <a href=#hyde-keybindings><kbd> <br> HyDE keybindings <br> </kbd></a>&ensp;&ensp; -->
+<!-- <a href=#404-keybindings><kbd> <br> 404 keybindings <br> </kbd></a>&ensp;&ensp; -->
 
 <a href=#window-management><kbd> <br> إدارة النوافذ <br> </kbd></a>&ensp;&ensp;
 <a href=#misc><kbd> <br> الموسيقي<br> </kbd></a>&ensp;&ensp;
@@ -38,15 +38,11 @@ Multi-language KEYBINDINGS support
 <div align="center">
   <div style="display: flex; flex-wrap: nowrap; justify-content: center;">
     <img src="../assets/archlinux.png" alt="Arch Linux" style="width: 10%; margin: 10px;"/>
-    <img src="../assets/cachyos.png" alt="CachyOS" style="width: 10%; margin: 10px;"/>
-    <img src="../assets/endeavouros.png" alt="EndeavourOS" style="width: 10%; margin: 10px;"/>
-    <img src="../assets/garuda.png" alt="Garuda" style="width: 10%; margin: 10px;"/>
-    <img src="../assets/nixos.png" alt="NixOS" style="width: 10%; margin: 10px;"/>
   </div>
 </div>
 
-<!-- # <a id=hyde-keybindings>HyDE Keybindings</a> -->
-<!-- # <a id=hyde-keybindings></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&width=435&lines=HyDE%20Keybindings" width="450"/> -->
+<!-- # <a id=404-keybindings>404 Keybindings</a> -->
+<!-- # <a id=404-keybindings></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&width=435&lines=404%20Keybindings" width="450"/> -->
 
 >[!TIP] 
 > <kbd>Super</kbd> + <kbd>/</kbd> يعرض روابط المفاتيح.
@@ -273,10 +269,10 @@ Multi-language KEYBINDINGS support
 ~/.config/hypr/userprefs.conf
 ```
 
-على سبيل المثال، لتعيين اختصار لتشغيل **HyDE Game Launcher**، أضف السطر التالي:
+على سبيل المثال، لتعيين اختصار لتشغيل **404 Game Launcher**، أضف السطر التالي:
 
 ```ini
-bind = $mainMod, SPACE, exec, $HOME/.local/lib/hyde/gamelauncher.sh
+bind = $mainMod, SPACE, exec, $HOME/.local/lib/404/gamelauncher.sh
 ```
 
 سيؤدي ذلك إلى تعيين المشغّل على <kbd>SUPER</kbd> + <kbd>مسافة</kbd>.  
@@ -285,7 +281,7 @@ bind = $mainMod, SPACE, exec, $HOME/.local/lib/hyde/gamelauncher.sh
 السكريبت `gamelauncher.sh` موجود بشكل افتراضي في:
 
 ```bash
-~/.local/lib/hyde/gamelauncher.sh
+~/.local/lib/404/gamelauncher.sh
 ```
 
 <div align="right">

@@ -1,9 +1,9 @@
 # Changelog
 
 <!--  
-All notable changes to `HyDE` will be documented in this file.
+All notable changes to `404` will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to _Modified_ [CalVer](https://calver.org/). See [Versioning](https://github.com/HyDE-Project/HyDE/blob/master/RELEASE_POLICY.md#versioning-yymq) For more info
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to _Modified_ [CalVer](https://calver.org/). See [Versioning](https://github.com/404-Project/404/blob/master/RELEASE_POLICY.md#versioning-yymq) For more info
  -->
 
 ## v25.12.4
@@ -20,8 +20,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Wallpaper: Added wallpaper '--multi-select' for multiple --outputs. Useful for per monitor or lockscreen/display manager background.  
 - Wallpaper: Selector option to modify column count
 - Theme: Selector option to modify thumbnail types and column count
-- CLI: Added 'hyde-shell open' for apps with mimetypes
-- Core: Clean up 'hyde-shell wallpaper' script 
+- CLI: Added '404-shell open' for apps with mimetypes
+- Core: Clean up '404-shell wallpaper' script 
 - Restore: Added option to trash the config to avoid conflicts
 - Waybar: Added pavucontrol-qt in the module
 - Rofi: Added search functionality to the game launcher menu.
@@ -30,11 +30,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Game launcher: lutris inspector py script now uses the lutris DB to get meta dat making it faster than using lutris CLI
 - Game launcher: steam inspector py script is translated from fn_steam shell script. 
 - Game launcher: catalog backend will merge both lutris and steam with hints for duplicates
-- Game launcher: "hyde-shell game launcher" now has --style and --backend args
+- Game launcher: "404-shell game launcher" now has --style and --backend args
 - Python: added pyproject.toml for ruff formatter
 - Shell: Added ".editorconfig" for shell scripts.
-- Cliphist: Added OCR backend. Invoking "hyde-shell cliphist -scan-image" or `Alt+V` on clipboard will extract the text of the latest image that exist in cliphist. 
-- Screenshot: Added QR code reading feature using `zbar` package. No default hotkey is provided. Call it via `hyde-shell screenshot sq`
+- Cliphist: Added OCR backend. Invoking "404-shell cliphist -scan-image" or `Alt+V` on clipboard will extract the text of the latest image that exist in cliphist. 
+- Screenshot: Added QR code reading feature using `zbar` package. No default hotkey is provided. Call it via `404-shell screenshot sq`
 - Weather Applet: Added automatic locale detection for temperature units (°C/°F), time formats (12h/24h), and wind speed (km/h/mph).
 - Weather Applet: Implemented multi-language support based on system locale and added `WEATHER_LANG` for manual overrides.
 - Weather Applet: Added support for a user-defined configuration file at `~/.config/weather.env`.
@@ -43,20 +43,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 - NVIDIA: Updated driver database to separate legacy and modern GPU support. `nvidia-open-dkms` now targets Turing (NV160) and newer, while `nvidia-580xx-dkms` covers Maxwell (NV110) through Volta (NV140).
 - QT: Move qtXct/colors.conf into qtXct/colors/wallbash.conf. This is how qtXct Settings parses color schemes the proper way.
-- Core: Moved core "color" switch inside directory in lib path. Prepare to make `~/.local/lib/hyde` external only scripts and corresponding directories will be sourced or executed internally. 
+- Core: Moved core "color" switch inside directory in lib path. Prepare to make `~/.local/lib/404` external only scripts and corresponding directories will be sourced or executed internally. 
 - Wallbash: Remove wallbash.qt as it is a simple cp command now in the qtct.dcol template
-- UWSM: Start processes launched with app2unit.sh,rofi,`hyde-shell app` as services
+- UWSM: Start processes launched with app2unit.sh,rofi,`404-shell app` as services
 
 ### Migration 
 
 ##### Hyprland
 
-- Before updating HyDE, Please make sure your hyprland version is 0.53.0!
-- After Updating HyDE please make sure to fix any syntax error in ~/.config/hypr/*
+- Before updating 404, Please make sure your hyprland version is 0.53.0!
+- After Updating 404 please make sure to fix any syntax error in ~/.config/hypr/*
 
 We are trying our best to fix any issues. So please try to your best to search for any duplicate issues and potential fixes! 
 
-Stay HyDErated!
+Stay 404rated!
 
 ## Migration
 
@@ -77,7 +77,7 @@ Users with Turing or newer cards using `nvidia-open-dkms` can fallback to `nvidi
 
 
 - Read wiki https://wiki.archlinux.org/title/NVIDIA
-- See common solutions https://github.com/HyDE-Project/HyDE/discussions/1477 
+- See common solutions https://github.com/404-Project/404/discussions/1477 
 
 
 ## v25.10.1
@@ -88,15 +88,15 @@ Users with Turing or newer cards using `nvidia-open-dkms` can fallback to `nvidi
 
 ### Added
 
-- QT6CT: Added explicit font configuration for QT6 Applications see [#1309](https://github.com/HyDE-Project/HyDE/issues/1309)
-- QT5CT: Added explicit font configuration for QT5 Applications see [#1309](https://github.com/HyDE-Project/HyDE/issues/1309)
-- GTK3: Added explicit font configuration for GTK3 Applications see [#1309](https://github.com/HyDE-Project/HyDE/issues/1309)
+- QT6CT: Added explicit font configuration for QT6 Applications see [#1309](https://github.com/404-Project/404/issues/1309)
+- QT5CT: Added explicit font configuration for QT5 Applications see [#1309](https://github.com/404-Project/404/issues/1309)
+- GTK3: Added explicit font configuration for GTK3 Applications see [#1309](https://github.com/404-Project/404/issues/1309)
 
 ### Changed
 
 - Audio volume control: use `wpctl` instead of `pamixer` for managing audio volume when PipeWire server is running.
 - Fish: `config.fish` is now user defined config
-- Fish: `confi.d/hyde.fish` is used for HyDE only stuff. To override this create a separate file or use `config.fish` 
+- Fish: `confi.d/404.fish` is used for 404 only stuff. To override this create a separate file or use `config.fish` 
 
 
 ### Migration
@@ -115,12 +115,12 @@ Please empty your `~/.config/fish/config.fish` and use it to modify fish configu
 
 - Turkish documentation.
 - No changes have been made to other codes.
-- OCR: `tesseract` now supports explicit language settings via `hyde/config.toml`:
+- OCR: `tesseract` now supports explicit language settings via `404/config.toml`:
     ```toml
     [screenshot.ocr]
     tesseract_languages = ["eng"]
     ```
-    To use text recognition bind `hyde-shell screenshot sc` to any hotkey.
+    To use text recognition bind `404-shell screenshot sc` to any hotkey.
 - Hyprlock: Added hyprlock preview
 - File chooser dialogs in Hyprland now open centered and floating instead of off-screen
 
@@ -131,7 +131,7 @@ Please empty your `~/.config/fish/config.fish` and use it to modify fish configu
 
 ## v25.9.1
 
-This release delivers a new gesture syntax for hyprland v0.51.0. This is a breaking change for users of the previous gesture syntax. Please update HyDE before opening an issue.
+This release delivers a new gesture syntax for hyprland v0.51.0. This is a breaking change for users of the previous gesture syntax. Please update 404 before opening an issue.
 
 For contributors, if you need to make the workspace animation vertical, example the `vertical.conf` animation, please **explicitly** add the following line to file.
 
@@ -144,8 +144,8 @@ gesture = 3, vertical, workspace
 ### Changed
 
 - Waybar: Make temperature background transparent
-- hyde-shell: silent pyinit command
-- Binds: Use `hyde-shell logout` for cleaner session logout
+- 404-shell: silent pyinit command
+- Binds: Use `404-shell logout` for cleaner session logout
 - Gestures: Chase hyprland v0.51.0 gesture syntax
 
 ### Added
@@ -156,7 +156,7 @@ gesture = 3, vertical, workspace
 ### Fixed
 
 - Typos,spelling and and cleanup
-- Dunst: Fix dunst crashing when the font cannot handle unsupported characters -- Thanks to [#1131](https://github.com/HyDE-Project/HyDE/issues/1131)
+- Dunst: Fix dunst crashing when the font cannot handle unsupported characters -- Thanks to [#1131](https://github.com/404-Project/404/issues/1131)
 - UWSM: Clean up the xdg freedesktop.org spec as uwsm handles it
 - Wallpaper: fix #1136 as exporting arrays are not supported in bash
 - Lockscreen: Fix zombie hyprlock
@@ -173,10 +173,10 @@ gesture = 3, vertical, workspace
 
 ### Added
 
-- hyde-shell: Add 'logout' command to handle with/out uwsm
+- 404-shell: Add 'logout' command to handle with/out uwsm
 - waybar: Add lighter temperature module (Needs manual setup)
 - Add credits page
-- waybar: Try to force initialization on restore (redundancy) might fix [#1160](https://github.com/HyDE-Project/HyDE/issues/1160)
+- waybar: Try to force initialization on restore (redundancy) might fix [#1160](https://github.com/404-Project/404/issues/1160)
 - Added pyprland boilerplate, no configs for now
 - Hyprland: Graciously handle some of the issues hyprland config issues for unknown SHELL
 - Pyprland: Use nc or socat to communicate with pyprland instead of pure python
@@ -184,7 +184,7 @@ gesture = 3, vertical, workspace
 
 ## v25.8.1
 
-Big CHANGE in HyDE! We are now using `uwsm` for session management and app2unit for application management.
+Big CHANGE in 404! We are now using `uwsm` for session management and app2unit for application management.
 
 **PLEASE run install.sh again to upgrade and install missing dependencies and REBOOT!**
 
@@ -192,17 +192,17 @@ In SDDM, please choose `Hyprland (UWSM Managed)` as your session. Or else you wi
 
 ### Changed
 
-- Hyprlock: Sourcing hyprlock/HyDE.conf as default theme
+- Hyprlock: Sourcing hyprlock/404.conf as default theme
 - Core: Improved theming script stack
-- Removed `xdg-config/hypr/hyde.conf` as it is too brittle. Use hyprland.conf instead!
+- Removed `xdg-config/hypr/404.conf` as it is too brittle. Use hyprland.conf instead!
 - Moved all core hypr stuff to `~/.local/share/hypr`
 
 ### Added
 
-- Core: Added 'app2unit.sh' as core script. This is a wrapper for the 'app' e.g. 'hyde-shell app mediaplayer.py' this runs the script as systemd scope. Using app2unit.sh as 'uwsm app' is slower.
+- Core: Added 'app2unit.sh' as core script. This is a wrapper for the 'app' e.g. '404-shell app mediaplayer.py' this runs the script as systemd scope. Using app2unit.sh as 'uwsm app' is slower.
 - Core: Added 'xdg-terminal-exec' as core script. Added this in here because the upstream xdg-terminal-exec is not yet available officially.
-- Development: Added 'Scripts/hydevm' for development. See its README.md for more info.
-- Package: UWSM as dependency for HyDE.
+- Development: Added 'Scripts/404vm' for development. See its README.md for more info.
+- Package: UWSM as dependency for 404.
 - Core: app2unit.sh and xdg-terminal-exec as as static dependencies. These tools are not widely available and are not part of the core dependencies.
 - The ~/.config/xdg-terminals.list file is now used to determine which terminal to use.
 - Wallbash: Added spotify flatpak support
@@ -212,22 +212,22 @@ In SDDM, please choose `Hyprland (UWSM Managed)` as your session. Or else you wi
 
 - Waybar: Some fixes for modules
 - Waybar: gpuinfo throws errors eg broken pipe
-- Lib: Clean up variables that are using HYDE*, we will try to use the XDG\_* variables instead.
+- Lib: Clean up variables that are using 404*, we will try to use the XDG\_* variables instead.
 - Core: Fixed some issues with the theming script stack.
 
 ## v25.7.3
 
-We use a dedicated Python environment to keep HyDE clean and dependency-free. Just run your scripts with `hyde-shell`— this handles the environment for you.
+We use a dedicated Python environment to keep 404 clean and dependency-free. Just run your scripts with `404-shell`— this handles the environment for you.
 
 Examples:  
- `hyde-shell mediaplayer.py`  
- `hyde-shell waybar`
+ `404-shell mediaplayer.py`  
+ `404-shell waybar`
 
 ### Added
 
 - CHANGELOG.md to track notable changes.
 - Features and fixes for mediaplayer. #865
-- HyDE's python environment rebuild on installation
+- 404's python environment rebuild on installation
 - PyGObject for the python environment
 - Mediaplayer: Add support for generic MPRIS metadata
 - Mediaplayer: RIght click menu for mediaplayer
@@ -235,7 +235,7 @@ Examples:
 - Waybar: Added a POC implementation of drawers in group modules
 - Waybar: Made mpris comparable to custom/mediaplayer. Should be noted mpris is not very customizable.
 - Waybar: Added generic gamemode module which detects if games are running in feral mode
-- Waybar: 'hyde-shell waybar --select' now will ask for **layout and style** options.
+- Waybar: '404-shell waybar --select' now will ask for **layout and style** options.
 - Core:Solid theming fallback
 
 ### Removed
@@ -244,10 +244,10 @@ Examples:
 
 ### Changed
 
-- Launch Scripts using 'hyde-shell' instead of '$scrPath/'
+- Launch Scripts using '404-shell' instead of '$scrPath/'
 - Hyprland: Remove dconf setting in Hyprland config and add a separate dconf stack on color setup. This removes some hiccups on hyprctl reload.
 - Updated `hyq` hyprquery v0.6.3r2
-- Updated `hydectl`
+- Updated `404ctl`
 
 ### Fixed
 

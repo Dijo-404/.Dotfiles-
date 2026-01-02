@@ -1,0 +1,44 @@
+# Removed Applications Tracker
+# ============================
+# This file tracks applications removed from the default 404 installation.
+# Date: 2026-01-02
+
+## Flatpak Applications Removed
+## ----------------------------
+
+| App ID                                | Name            | Reason        |
+|---------------------------------------|-----------------|---------------|
+| io.gitlab.theevilskeleton.Upscaler    | ImageUpscaler   | User request  |
+| com.github.unrud.VideoDownloader      | VideoDownloader | User request  |
+| org.blender.Blender                   | Blender         | User request  |
+| org.inkscape.Inkscape                 | Inkscape        | User request  |
+| org.kde.krita                         | Krita           | User request  |
+| org.gimp.GIMP                         | GIMP            | User request  |
+| io.github.spacingbat3.webcord         | Webcord         | User request  |
+| com.github.tchx84.Flatseal            | Flatseal        | User request  |
+| io.github.flattool.Warehouse          | Warehouse       | User request  |
+
+## Other Removed Items
+## -------------------
+
+### Distro Support (Arch-only now)
+- NixOS support (flake.nix, flake.lock, Scripts/hydevm/)
+- CachyOS, EndeavourOS, Garuda, NixOS logos
+
+### Themes Removed (Catppuccin Mocha only)
+- Catppuccin Latte
+- Decay Green
+- Edge Runner
+- Frosted Glass
+- Graphite Mono
+- Gruvbox Retro
+- Material Sakura
+- Nordic Blue
+- Rosé Pine
+- Synth Wave
+- Tokyo Night
+
+## Notes
+## -----
+# Add any additional notes about removed applications here.
+

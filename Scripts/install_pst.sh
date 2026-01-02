@@ -20,7 +20,7 @@ if pkg_installed sddm; then
     if [ ! -d /etc/sddm.conf.d ]; then
         [ ${flg_DryRun} -eq 1 ] || sudo mkdir -p /etc/sddm.conf.d
     fi
-    if [ ! -f /etc/sddm.conf.d/backup_the_hyde_project.conf ] || [ "${HYDE_INSTALL_SDDM}" = true ]; then
+    if [ ! -f /etc/sddm.conf.d/backup_the_404_project.conf ] || [ "${404_INSTALL_SDDM}" = true ]; then
         print_log -g "[DISPLAYMANAGER] " -b " :: " "configuring sddm..."
         print_log -g "[DISPLAYMANAGER] " -b " :: " "Select sddm theme:" -r "\n[1]" -b " Candy" -r "\n[2]" -b " Corners"
         read -p " :: Enter option number : " -r sddmopt
@@ -32,9 +32,9 @@ if pkg_installed sddm; then
 
         if [[ ${flg_DryRun} -ne 1 ]]; then
             sudo tar -xzf "${cloneDir}/Source/arcs/Sddm_${sddmtheme}.tar.gz" -C /usr/share/sddm/themes/
-            sudo touch /etc/sddm.conf.d/the_hyde_project.conf
-            sudo cp /etc/sddm.conf.d/the_hyde_project.conf /etc/sddm.conf.d/backup_the_hyde_project.conf
-            sudo cp /usr/share/sddm/themes/${sddmtheme}/the_hyde_project.conf /etc/sddm.conf.d/
+            sudo touch /etc/sddm.conf.d/the_404_project.conf
+            sudo cp /etc/sddm.conf.d/the_404_project.conf /etc/sddm.conf.d/backup_the_404_project.conf
+            sudo cp /usr/share/sddm/themes/${sddmtheme}/the_404_project.conf /etc/sddm.conf.d/
         fi
 
         print_log -g "[DISPLAYMANAGER] " -b " :: " "sddm configured with ${sddmtheme} theme..."
@@ -82,4 +82,19 @@ if ! pkg_installed flatpak; then
 
 else
     print_log -y "[FLATPAK]" -b " :: " "flatpak is already installed"
+fi
+
+# Set default wallpaper
+confDir="${XDG_CONFIG_HOME:-$HOME/.config}"
+defaultWallpaper="forest_dark_winter.jpg"
+themeWallpaperDir="${confDir}/404/themes/Catppuccin Mocha/wallpapers"
+
+if [ -f "${themeWallpaperDir}/${defaultWallpaper}" ]; then
+    print_log -g "[WALLPAPER]" -b " :: " "setting default wallpaper to ${defaultWallpaper}..."
+    # Create wallpaper state file pointing to the default wallpaper
+    mkdir -p "${confDir}/404"
+    echo "${themeWallpaperDir}/${defaultWallpaper}" > "${confDir}/404/.current_wallpaper"
+    print_log -g "[WALLPAPER]" -b " :: " "default wallpaper configured"
+else
+    print_log -y "[WALLPAPER]" -b " :: " "wallpaper ${defaultWallpaper} not found, will be set after theme installation"
 fi

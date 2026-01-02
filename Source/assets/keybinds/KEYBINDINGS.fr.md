@@ -1,12 +1,12 @@
 <div align = center>
   <a href="https://discord.gg/AYbJ9MJez7">
-    <img alt="Badge JSON Dynamique" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FmT5YqjaJFh%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20membres&style=for-the-badge&logo=discord&logoSize=auto&label=Le%20Projet%20HyDe&labelColor=ebbcba&color=c79bf0">
+    <img alt="Badge JSON Dynamique" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FmT5YqjaJFh%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20membres&style=for-the-badge&logo=discord&logoSize=auto&label=Le%20Projet%20404&labelColor=ebbcba&color=c79bf0">
   </a>
 </div>
 
 ###### _<div align="right"><a id=-design-by-t2></a><sub>// design par t2</sub></div>_
 
-![hyde_banner](../assets/hyde_banner.png)
+![404_banner](../assets/404_banner.png)
 
 <!--
 Prise en charge multilingue des RACCOURCIS CLAVIER
@@ -36,16 +36,12 @@ Prise en charge multilingue des RACCOURCIS CLAVIER
 <div align="center">
   <div style="display: flex; flex-wrap: nowrap; justify-content: center;">
     <img src="../assets/archlinux.png" alt="Arch Linux" style="width: 10%; margin: 10px;"/>
-    <img src="../assets/cachyos.png" alt="CachyOS" style="width: 10%; margin: 10px;"/>
-    <img src="../assets/endeavouros.png" alt="EndeavourOS" style="width: 10%; margin: 10px;"/>
-    <img src="../assets/garuda.png" alt="Garuda" style="width: 10%; margin: 10px;"/>
-    <img src="../assets/nixos.png" alt="NixOS" style="width: 10%; margin: 10px;"/>
   </div>
 </div>
 
-<!-- # <a id=hyde-raccourcis>HyDE Raccourcis Clavier</a> -->
+<!-- # <a id=404-raccourcis>404 Raccourcis Clavier</a> -->
 
-Voici tous les raccourcis clavier spécifiques à HyDE.
+Voici tous les raccourcis clavier spécifiques à 404.
 
 >[!TIP] 
 > <kbd>Super</kbd> + <kbd>/</kbd> affiche les raccourcis clavier.
@@ -286,10 +282,10 @@ Vous pouvez définir vos propres raccourcis clavier en modifiant le fichier suiv
 ~/.config/hypr/userprefs.conf
 ```
 
-Par exemple, pour créer un raccourci qui lance le **HyDE Game Launcher**, ajoutez cette ligne :
+Par exemple, pour créer un raccourci qui lance le **404 Game Launcher**, ajoutez cette ligne :
 
 ```ini
-bind = $mainMod, SPACE, exec, $HOME/.local/lib/hyde/gamelauncher.sh
+bind = $mainMod, SPACE, exec, $HOME/.local/lib/404/gamelauncher.sh
 ```
 
 Cela assignera le Game Launcher à <kbd>SUPER</kbd> + <kbd>Espace</kbd>.  
@@ -298,7 +294,7 @@ Vous pouvez remplacer `SPACE` par une autre touche de votre choix.
 Le script `gamelauncher.sh` est inclus par défaut et se trouve ici :
 
 ```bash
-~/.local/lib/hyde/gamelauncher.sh
+~/.local/lib/404/gamelauncher.sh
 ```
 
 <div align="right">

@@ -1,12 +1,12 @@
 <div align = center>
   <a href="https://discord.gg/AYbJ9MJez7">
-    <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FmT5YqjaJFh%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&style=for-the-badge&logo=discord&logoSize=auto&label=The%20HyDe%20Project&labelColor=ebbcba&color=c79bf0">
+    <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FmT5YqjaJFh%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&style=for-the-badge&logo=discord&logoSize=auto&label=The%20404%20Project&labelColor=ebbcba&color=c79bf0">
   </a>
 </div>
 
 ###### _<div align="right"><a id=-design-by-t2></a><sub>// design by t2</sub></div>_
 
-![hyde_banner](../assets/hyde_banner.png)
+![404_banner](../assets/404_banner.png)
 
 <!--
 Multi-language KEYBINDINGS support
@@ -36,14 +36,10 @@ Multi-language KEYBINDINGS support
 <div align="center">
   <div style="display: flex; flex-wrap: nowrap; justify-content: center;">
     <img src="../assets/archlinux.png" alt="Arch Linux" style="width: 10%; margin: 10px;"/>
-    <img src="../assets/cachyos.png" alt="CachyOS" style="width: 10%; margin: 10px;"/>
-    <img src="../assets/endeavouros.png" alt="EndeavourOS" style="width: 10%; margin: 10px;"/>
-    <img src="../assets/garuda.png" alt="Garuda" style="width: 10%; margin: 10px;"/>
-    <img src="../assets/nixos.png" alt="NixOS" style="width: 10%; margin: 10px;"/>
   </div>
 </div>
 
-Hier zijn alle HyDE-specifieke toetscombinaties opgesomd.
+Hier zijn alle 404-specifieke toetscombinaties opgesomd.
 
 >[!TIP] 
 > <kbd>Super</kbd> + <kbd>/</kbd> toont de toetscombinaties.
@@ -272,10 +268,10 @@ Je kunt je eigen sneltoetsen instellen door dit bestand te bewerken:
 ~/.config/hypr/userprefs.conf
 ```
 
-Bijvoorbeeld, om een sneltoets toe te voegen voor het starten van de **HyDE Game Launcher**, voeg deze regel toe:
+Bijvoorbeeld, om een sneltoets toe te voegen voor het starten van de **404 Game Launcher**, voeg deze regel toe:
 
 ```ini
-bind = $mainMod, SPACE, exec, $HOME/.local/lib/hyde/gamelauncher.sh
+bind = $mainMod, SPACE, exec, $HOME/.local/lib/404/gamelauncher.sh
 ```
 
 Hiermee koppel je de Game Launcher aan <kbd>SUPER</kbd> + <kbd>Spatie</kbd>.  
@@ -284,7 +280,7 @@ Je kunt `SPACE` vervangen door een andere gewenste toets.
 Het script `gamelauncher.sh` is standaard inbegrepen en staat op:
 
 ```bash
-~/.local/lib/hyde/gamelauncher.sh
+~/.local/lib/404/gamelauncher.sh
 ```
 
 <div align="right">

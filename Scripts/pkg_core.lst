@@ -75,6 +75,12 @@ code                                                   # ide text editor
 nwg-displays                                           # monitor management utility
 fzf                                                    # Command-line fuzzy finder
 
+# --------------------------------------------------- // Dev Tools
+git                                                    # version control system
+docker                                                 # container runtime
+lazygit                                                # terminal ui for git
+lazydocker                                             # terminal ui for docker
+
 # --------------------------------------------------- // Shell
 starship|zsh                                           # customizable shell prompt written in Rust
 # starship-git                                         # The cross-shell prompt for astronauts  
@@ -82,5 +88,5 @@ starship|fish                                          # customizable shell prom
 
 fastfetch                                              # system information fetch tool
 
-# --------------------------------------------------- // HyDE
+# --------------------------------------------------- // 404
 hypridle                                               # idle daemon
