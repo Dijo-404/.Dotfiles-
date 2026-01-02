@@ -98,3 +98,11 @@ if [ -f "${themeWallpaperDir}/${defaultWallpaper}" ]; then
 else
     print_log -y "[WALLPAPER]" -b " :: " "wallpaper ${defaultWallpaper} not found, will be set after theme installation"
 fi
+
+# Install LazyVim
+if pkg_installed neovim; then
+    print_log -c "[LAZYVIM] " -b "detected :: " "neovim"
+    "${scrDir}/extra/install_lazyvim.sh"
+else
+    print_log -y "[LAZYVIM] " -b " :: " "neovim is not installed, skipping lazyvim installation"
+fi
