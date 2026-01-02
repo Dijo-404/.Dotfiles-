@@ -31,7 +31,7 @@
 | Terminal | Kitty |
 | Shell | Zsh + Starship |
 | File Manager | Dolphin |
-| Editor | VS Code, Vim |
+| Editor | Neovim (LazyVim), Kate, VS Code |
 
 ---
 
@@ -60,7 +60,7 @@ git pull
 
 ## Keybindings
 
-See [KEYBINDINGS.md](ASSETS/KEYBINDINGS.md)
+See [KEYBINDINGS.md](Assets/KEYBINDINGS.md)
 
 ---
 
