@@ -328,9 +328,9 @@ if [ $flg_Install -eq 1 ]; then
     print_log -g "Installation" " :: " "COMPLETED!"
 fi
 print_log -b "Log" " :: " -y "View logs at ${cacheDir}/logs/${404_LOG}"
-if [ $flg_Install -eq 1 ] ||
+if ([ $flg_Install -eq 1 ] ||
     [ $flg_Restore -eq 1 ] ||
-    [ $flg_Service -eq 1 ] &&
+    [ $flg_Service -eq 1 ]) &&
     [ $flg_DryRun -ne 1 ]; then
 
     if [[ -z "${HYPRLAND_CONFIG:-}" ]] || [[ ! -f "${HYPRLAND_CONFIG}" ]]; then
