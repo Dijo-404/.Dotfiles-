@@ -144,7 +144,7 @@
 
 | Keys | Action |
 | :--- | :----- |
-| `Super + R` | cycle power profile (performance/balanced/power-saver) |
+| `Super + R` | cycle power profile (auto/performance/balanced/power-saver) |
 
 ---
 

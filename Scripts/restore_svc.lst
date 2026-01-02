@@ -13,3 +13,10 @@
 NetworkManager|root|enable --now
 bluetooth|root|enable --now
 sddm|root|enable
+
+# Power management
+tlp|root|enable --now
+power-profiles-daemon|user|enable --now
+
+# Touchpad gestures
+libinput-gestures|user|enable --now
